@@ -100,15 +100,15 @@ return {
 	{ 'norcalli/nvim-colorizer.lua',         lazy = true },
 	{ 'HiPhish/nvim-ts-rainbow2',            lazy = true },
 	{ 'nvim-telescope/telescope.nvim',       dependencies = { 'nvim-lua/plenary.nvim' }, lazy = true },
-	{ "Shatur/neovim-session-manager",       dependencies = { "nvim-lua/plenary.nvim" }, lazy = true },
-	{
-		"nvim-telescope/telescope-file-browser.nvim",
-		dependencies = {
-			"nvim-telescope/telescope.nvim",
-			"nvim-lua/plenary.nvim"
-		},
-		lazy = true
-	},
+	-- { "Shatur/neovim-session-manager",       dependencies = { "nvim-lua/plenary.nvim" }, lazy = true },
+	-- {
+	-- 	"nvim-telescope/telescope-file-browser.nvim",
+	-- 	dependencies = {
+	-- 		"nvim-telescope/telescope.nvim",
+	-- 		"nvim-lua/plenary.nvim"
+	-- 	},
+	-- 	lazy = true
+	-- },
 	{
 		'nvim-telescope/telescope-project.nvim',
 		dependencies = {
